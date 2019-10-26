@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// web.php
+// http://127.0.0.1:8000/forms/create
+Route::resource('forms','FormController');
